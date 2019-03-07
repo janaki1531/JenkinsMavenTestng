@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="1" total="3" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="81157" started-at="2019-03-07T21:02:40Z" finished-at="2019-03-07T21:04:01Z">
+    <groups>
+      <group name="functionalTesting">
+        <method signature="ParameterTest.username(java.lang.String, java.lang.String)[pri:1, instance:com.prameters.ParameterTest@50f8360d]" name="username" class="com.prameters.ParameterTest"/>
+      </group> <!-- functionalTesting -->
+    </groups>
+    <test name="Test" duration-ms="81157" started-at="2019-03-07T21:02:40Z" finished-at="2019-03-07T21:04:01Z">
+      <class name="com.prameters.ParameterTest">
+        <test-method status="PASS" signature="setup(java.lang.String, java.lang.String)[pri:0, instance:com.prameters.ParameterTest@50f8360d]" name="setup" is-config="true" duration-ms="14568" started-at="2019-03-07T21:02:44Z" finished-at="2019-03-07T21:02:58Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[https://www.gmail.com]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="username(java.lang.String, java.lang.String)[pri:1, instance:com.prameters.ParameterTest@50f8360d]" name="username" duration-ms="27620" started-at="2019-03-07T21:02:58Z" data-provider="janaki" finished-at="2019-03-07T21:03:26Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[janakikunapareddy@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Janaki@28]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- username -->
+        <test-method status="PASS" signature="teardownTest()[pri:0, instance:com.prameters.ParameterTest@50f8360d]" name="teardownTest" is-config="true" duration-ms="927" started-at="2019-03-07T21:03:26Z" finished-at="2019-03-07T21:03:27Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardownTest -->
+        <test-method status="PASS" signature="setup(java.lang.String, java.lang.String)[pri:0, instance:com.prameters.ParameterTest@50f8360d]" name="setup" is-config="true" duration-ms="7639" started-at="2019-03-07T21:03:27Z" finished-at="2019-03-07T21:03:34Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[https://www.gmail.com]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="username(java.lang.String, java.lang.String)[pri:1, instance:com.prameters.ParameterTest@50f8360d]" name="username" duration-ms="25719" started-at="2019-03-07T21:03:34Z" data-provider="janaki" finished-at="2019-03-07T21:04:00Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[janaki1531@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Janaki@28]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- username -->
+        <test-method status="PASS" signature="teardownTest()[pri:0, instance:com.prameters.ParameterTest@50f8360d]" name="teardownTest" is-config="true" duration-ms="741" started-at="2019-03-07T21:04:00Z" finished-at="2019-03-07T21:04:01Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardownTest -->
+      </class> <!-- com.prameters.ParameterTest -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
