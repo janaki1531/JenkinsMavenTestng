@@ -1,5 +1,6 @@
 package com.prameters;
 
+import java.util.EventListener;
 import java.util.concurrent.TimeUnit;
 
 import org.openqa.selenium.By;
@@ -8,10 +9,17 @@ import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
 import org.openqa.selenium.ie.InternetExplorerDriver;
+import org.openqa.selenium.support.events.EventFiringWebDriver;
+
+import RetryAnalyzer.WebEventListener;
+
+
+
 
 public class MethodsforGmail {
 	public static WebDriver driver;
-	
+	public static EventFiringWebDriver e_driver;
+	public static WebEventListener  eventListner;
 	public static void  setup(String browser,String url) throws Throwable {
 		if(browser.equalsIgnoreCase("chrome")) {
 		System.setProperty("Webdriver.chrome.driver", "C:\\Users\\shiva\\Desktop\\QA SELEMIUM TESTING AND JAVA\\duplicate workspace\\JenkinsMavenTestng\\chromedriver.exe");
@@ -24,9 +32,15 @@ public class MethodsforGmail {
 		else if(browser.equalsIgnoreCase("IE")){
 				System.setProperty("WebDriver.ImeHandler.driver","C:\\Users\\shiva\\Desktop\\QA SELEMIUM TESTING AND JAVA\\duplicate workspace\\NaveenPractices\\IEDriverServer.exe");
 	
+				
 		driver=new InternetExplorerDriver();
 		}
 		
+		e_driver=new EventFiringWebDriver(driver);
+		//noe create event handler to register it with eventFiringWebDriver
+		eventListner=new WebEventListener();
+		e_driver.register(eventListner);
+		driver=e_driver;
 		
 		driver.get(url);
 		driver.manage().timeouts().implicitlyWait(30,TimeUnit.SECONDS);

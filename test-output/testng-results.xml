@@ -2,15 +2,15 @@
 <testng-results skipped="0" failed="0" ignored="1" total="3" passed="2">
   <reporter-output>
   </reporter-output>
-  <suite name="Suite" duration-ms="144951" started-at="2019-03-07T20:31:38Z" finished-at="2019-03-07T20:34:02Z">
+  <suite name="Suite" duration-ms="180249" started-at="2019-03-07T21:53:33Z" finished-at="2019-03-07T21:56:33Z">
     <groups>
       <group name="functionalTesting">
-        <method signature="ParameterTest.username(java.lang.String, java.lang.String)[pri:1, instance:com.prameters.ParameterTest@1a968a59]" name="username" class="com.prameters.ParameterTest"/>
+        <method signature="ParameterTest.username(java.lang.String, java.lang.String)[pri:1, instance:com.prameters.ParameterTest@146ba0ac]" name="username" class="com.prameters.ParameterTest"/>
       </group> <!-- functionalTesting -->
     </groups>
-    <test name="Test" duration-ms="144951" started-at="2019-03-07T20:31:38Z" finished-at="2019-03-07T20:34:02Z">
+    <test name="Test" duration-ms="180249" started-at="2019-03-07T21:53:33Z" finished-at="2019-03-07T21:56:33Z">
       <class name="com.prameters.ParameterTest">
-        <test-method status="PASS" signature="setup(java.lang.String, java.lang.String)[pri:0, instance:com.prameters.ParameterTest@1a968a59]" name="setup" is-config="true" duration-ms="51352" started-at="2019-03-07T20:32:02Z" finished-at="2019-03-07T20:32:54Z">
+        <test-method status="PASS" signature="setup(java.lang.String, java.lang.String)[pri:0, instance:com.prameters.ParameterTest@146ba0ac]" name="setup" is-config="true" duration-ms="22221" started-at="2019-03-07T21:53:34Z" finished-at="2019-03-07T21:53:56Z">
           <params>
             <param index="0">
               <value>
@@ -26,7 +26,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method status="PASS" signature="username(java.lang.String, java.lang.String)[pri:1, instance:com.prameters.ParameterTest@1a968a59]" name="username" duration-ms="32401" started-at="2019-03-07T20:32:54Z" data-provider="janaki" finished-at="2019-03-07T20:33:26Z">
+        <test-method status="PASS" signature="username(java.lang.String, java.lang.String)[pri:1, instance:com.prameters.ParameterTest@146ba0ac]" name="username" duration-ms="68942" started-at="2019-03-07T21:53:56Z" data-provider="janaki" finished-at="2019-03-07T21:55:05Z">
           <params>
             <param index="0">
               <value>
@@ -42,11 +42,11 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- username -->
-        <test-method status="PASS" signature="teardownTest()[pri:0, instance:com.prameters.ParameterTest@1a968a59]" name="teardownTest" is-config="true" duration-ms="960" started-at="2019-03-07T20:33:26Z" finished-at="2019-03-07T20:33:27Z">
+        <test-method status="PASS" signature="teardownTest()[pri:0, instance:com.prameters.ParameterTest@146ba0ac]" name="teardownTest" is-config="true" duration-ms="1403" started-at="2019-03-07T21:55:05Z" finished-at="2019-03-07T21:55:06Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- teardownTest -->
-        <test-method status="PASS" signature="setup(java.lang.String, java.lang.String)[pri:0, instance:com.prameters.ParameterTest@1a968a59]" name="setup" is-config="true" duration-ms="9235" started-at="2019-03-07T20:33:27Z" finished-at="2019-03-07T20:33:36Z">
+        <test-method status="PASS" signature="setup(java.lang.String, java.lang.String)[pri:0, instance:com.prameters.ParameterTest@146ba0ac]" name="setup" is-config="true" duration-ms="41493" started-at="2019-03-07T21:55:06Z" finished-at="2019-03-07T21:55:48Z">
           <params>
             <param index="0">
               <value>
@@ -62,7 +62,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method status="PASS" signature="username(java.lang.String, java.lang.String)[pri:1, instance:com.prameters.ParameterTest@1a968a59]" name="username" duration-ms="25450" started-at="2019-03-07T20:33:36Z" data-provider="janaki" finished-at="2019-03-07T20:34:02Z">
+        <test-method status="PASS" signature="username(java.lang.String, java.lang.String)[pri:1, instance:com.prameters.ParameterTest@146ba0ac]" name="username" duration-ms="43734" started-at="2019-03-07T21:55:48Z" data-provider="janaki" finished-at="2019-03-07T21:56:32Z">
           <params>
             <param index="0">
               <value>
@@ -78,7 +78,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- username -->
-        <test-method status="PASS" signature="teardownTest()[pri:0, instance:com.prameters.ParameterTest@1a968a59]" name="teardownTest" is-config="true" duration-ms="804" started-at="2019-03-07T20:34:02Z" finished-at="2019-03-07T20:34:02Z">
+        <test-method status="PASS" signature="teardownTest()[pri:0, instance:com.prameters.ParameterTest@146ba0ac]" name="teardownTest" is-config="true" duration-ms="1149" started-at="2019-03-07T21:56:32Z" finished-at="2019-03-07T21:56:33Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- teardownTest -->

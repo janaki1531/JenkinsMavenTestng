@@ -156,6 +156,9 @@
 &lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
 &lt;!DOCTYPE suite SYSTEM &quot;http://testng.org/testng-1.0.dtd&quot;&gt;
 &lt;suite guice-stage=&quot;DEVELOPMENT&quot; name=&quot;Suite&quot;&gt;
+  &lt;listeners&gt;
+    &lt;listener class-name=&quot;RetryAnalyzer.ExtentReportListener&quot;/&gt;
+  &lt;/listeners&gt;
   &lt;test thread-count=&quot;5&quot; name=&quot;Test&quot;&gt;
     &lt;parameter name=&quot;browser&quot; value=&quot;chrome&quot;/&gt;
     &lt;parameter name=&quot;url&quot; value=&quot;https://www.gmail.com&quot;/&gt;
@@ -218,16 +221,16 @@ data.addRows(2);
 data.setCell(0, 0, 0)
 data.setCell(0, 1, 'username')
 data.setCell(0, 2, 'com.prameters.ParameterTest')
-data.setCell(0, 3, 32401);
+data.setCell(0, 3, 68942);
 data.setCell(1, 0, 1)
 data.setCell(1, 1, 'username')
 data.setCell(1, 2, 'com.prameters.ParameterTest')
-data.setCell(1, 3, 25450);
+data.setCell(1, 3, 43734);
 window.suiteTableData['Suite']= { tableData: data, tableDiv: 'times-div-Suite'}
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 57 seconds</span>
+              <span class="suite-total-time">Total running time: 1 minutes</span>
               <div id="times-div-Suite">
               </div> <!-- times-div-Suite -->
             </div> <!-- times-div -->
@@ -267,23 +270,23 @@ return data;
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">username(janakikunapareddy@gmail.com, Janaki@28)</span>
-                <span class="method-start">51352 ms</span>
+                <span class="method-start">22221 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">teardownTest</span>
-                <span class="method-start">83754 ms</span>
+                <span class="method-start">91167 ms</span>
               </div> <!-- configuration-method after -->
               <div class="configuration-method before">
                 <span class="method-name">setup(chrome, https://www.gmail.com)</span>
-                <span class="method-start">84715 ms</span>
+                <span class="method-start">92570 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">username(janaki1531@gmail.com, Janaki@28)</span>
-                <span class="method-start">93951 ms</span>
+                <span class="method-start">134063 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">teardownTest</span>
-                <span class="method-start">119403 ms</span>
+                <span class="method-start">177800 ms</span>
               </div> <!-- configuration-method after -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
